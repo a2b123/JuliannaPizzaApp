@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87C256DC1F28938800305014 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C256DB1F28938800305014 /* AppDelegate.swift */; };
+		87C256DE1F28938800305014 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C256DD1F28938800305014 /* ViewController.swift */; };
+		87C256E11F28938800305014 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87C256DF1F28938800305014 /* Main.storyboard */; };
+		87C256E41F28938800305014 /* JuliannasPizzaApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 87C256E21F28938800305014 /* JuliannasPizzaApp.xcdatamodeld */; };
+		87C256E61F28938800305014 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87C256E51F28938800305014 /* Assets.xcassets */; };
+		87C256E91F28938800305014 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87C256E71F28938800305014 /* LaunchScreen.storyboard */; };
+		87C256F41F28938800305014 /* JuliannasPizzaAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C256F31F28938800305014 /* JuliannasPizzaAppTests.swift */; };
+		87C256FF1F28938800305014 /* JuliannasPizzaAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C256FE1F28938800305014 /* JuliannasPizzaAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87C256F01F28938800305014 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87C256D01F28938800305014 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87C256D71F28938800305014;
+			remoteInfo = JuliannasPizzaApp;
+		};
+		87C256FB1F28938800305014 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87C256D01F28938800305014 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87C256D71F28938800305014;
+			remoteInfo = JuliannasPizzaApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		87C256D81F28938800305014 /* JuliannasPizzaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JuliannasPizzaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87C256DB1F28938800305014 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		87C256DD1F28938800305014 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		87C256E01F28938800305014 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		87C256E31F28938800305014 /* JuliannasPizzaApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JuliannasPizzaApp.xcdatamodel; sourceTree = "<group>"; };
+		87C256E51F28938800305014 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87C256E81F28938800305014 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		87C256EA1F28938800305014 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87C256EF1F28938800305014 /* JuliannasPizzaAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JuliannasPizzaAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87C256F31F28938800305014 /* JuliannasPizzaAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuliannasPizzaAppTests.swift; sourceTree = "<group>"; };
+		87C256F51F28938800305014 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87C256FA1F28938800305014 /* JuliannasPizzaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JuliannasPizzaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87C256FE1F28938800305014 /* JuliannasPizzaAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuliannasPizzaAppUITests.swift; sourceTree = "<group>"; };
+		87C257001F28938800305014 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87C256D51F28938800305014 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87C256EC1F28938800305014 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87C256F71F28938800305014 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87C256CF1F28938800305014 = {
+			isa = PBXGroup;
+			children = (
+				87C256DA1F28938800305014 /* JuliannasPizzaApp */,
+				87C256F21F28938800305014 /* JuliannasPizzaAppTests */,
+				87C256FD1F28938800305014 /* JuliannasPizzaAppUITests */,
+				87C256D91F28938800305014 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87C256D91F28938800305014 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87C256D81F28938800305014 /* JuliannasPizzaApp.app */,
+				87C256EF1F28938800305014 /* JuliannasPizzaAppTests.xctest */,
+				87C256FA1F28938800305014 /* JuliannasPizzaAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87C256DA1F28938800305014 /* JuliannasPizzaApp */ = {
+			isa = PBXGroup;
+			children = (
+				87C256DB1F28938800305014 /* AppDelegate.swift */,
+				87C256DD1F28938800305014 /* ViewController.swift */,
+				87C256DF1F28938800305014 /* Main.storyboard */,
+				87C256E51F28938800305014 /* Assets.xcassets */,
+				87C256E71F28938800305014 /* LaunchScreen.storyboard */,
+				87C256EA1F28938800305014 /* Info.plist */,
+				87C256E21F28938800305014 /* JuliannasPizzaApp.xcdatamodeld */,
+			);
+			path = JuliannasPizzaApp;
+			sourceTree = "<group>";
+		};
+		87C256F21F28938800305014 /* JuliannasPizzaAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				87C256F31F28938800305014 /* JuliannasPizzaAppTests.swift */,
+				87C256F51F28938800305014 /* Info.plist */,
+			);
+			path = JuliannasPizzaAppTests;
+			sourceTree = "<group>";
+		};
+		87C256FD1F28938800305014 /* JuliannasPizzaAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				87C256FE1F28938800305014 /* JuliannasPizzaAppUITests.swift */,
+				87C257001F28938800305014 /* Info.plist */,
+			);
+			path = JuliannasPizzaAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87C256D71F28938800305014 /* JuliannasPizzaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87C257031F28938900305014 /* Build configuration list for PBXNativeTarget "JuliannasPizzaApp" */;
+			buildPhases = (
+				87C256D41F28938800305014 /* Sources */,
+				87C256D51F28938800305014 /* Frameworks */,
+				87C256D61F28938800305014 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JuliannasPizzaApp;
+			productName = JuliannasPizzaApp;
+			productReference = 87C256D81F28938800305014 /* JuliannasPizzaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87C256EE1F28938800305014 /* JuliannasPizzaAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87C257061F28938900305014 /* Build configuration list for PBXNativeTarget "JuliannasPizzaAppTests" */;
+			buildPhases = (
+				87C256EB1F28938800305014 /* Sources */,
+				87C256EC1F28938800305014 /* Frameworks */,
+				87C256ED1F28938800305014 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87C256F11F28938800305014 /* PBXTargetDependency */,
+			);
+			name = JuliannasPizzaAppTests;
+			productName = JuliannasPizzaAppTests;
+			productReference = 87C256EF1F28938800305014 /* JuliannasPizzaAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		87C256F91F28938800305014 /* JuliannasPizzaAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87C257091F28938900305014 /* Build configuration list for PBXNativeTarget "JuliannasPizzaAppUITests" */;
+			buildPhases = (
+				87C256F61F28938800305014 /* Sources */,
+				87C256F71F28938800305014 /* Frameworks */,
+				87C256F81F28938800305014 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87C256FC1F28938800305014 /* PBXTargetDependency */,
+			);
+			name = JuliannasPizzaAppUITests;
+			productName = JuliannasPizzaAppUITests;
+			productReference = 87C256FA1F28938800305014 /* JuliannasPizzaAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87C256D01F28938800305014 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = AmarBhatia;
+				TargetAttributes = {
+					87C256D71F28938800305014 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 465955C7HD;
+						ProvisioningStyle = Automatic;
+					};
+					87C256EE1F28938800305014 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 465955C7HD;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 87C256D71F28938800305014;
+					};
+					87C256F91F28938800305014 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 465955C7HD;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 87C256D71F28938800305014;
+					};
+				};
+			};
+			buildConfigurationList = 87C256D31F28938800305014 /* Build configuration list for PBXProject "JuliannasPizzaApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87C256CF1F28938800305014;
+			productRefGroup = 87C256D91F28938800305014 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87C256D71F28938800305014 /* JuliannasPizzaApp */,
+				87C256EE1F28938800305014 /* JuliannasPizzaAppTests */,
+				87C256F91F28938800305014 /* JuliannasPizzaAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87C256D61F28938800305014 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87C256E91F28938800305014 /* LaunchScreen.storyboard in Resources */,
+				87C256E61F28938800305014 /* Assets.xcassets in Resources */,
+				87C256E11F28938800305014 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87C256ED1F28938800305014 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87C256F81F28938800305014 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87C256D41F28938800305014 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87C256DE1F28938800305014 /* ViewController.swift in Sources */,
+				87C256E41F28938800305014 /* JuliannasPizzaApp.xcdatamodeld in Sources */,
+				87C256DC1F28938800305014 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87C256EB1F28938800305014 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87C256F41F28938800305014 /* JuliannasPizzaAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87C256F61F28938800305014 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87C256FF1F28938800305014 /* JuliannasPizzaAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87C256F11F28938800305014 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87C256D71F28938800305014 /* JuliannasPizzaApp */;
+			targetProxy = 87C256F01F28938800305014 /* PBXContainerItemProxy */;
+		};
+		87C256FC1F28938800305014 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87C256D71F28938800305014 /* JuliannasPizzaApp */;
+			targetProxy = 87C256FB1F28938800305014 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		87C256DF1F28938800305014 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87C256E01F28938800305014 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		87C256E71F28938800305014 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87C256E81F28938800305014 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87C257011F28938900305014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		87C257021F28938900305014 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87C257041F28938900305014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 465955C7HD;
+				INFOPLIST_FILE = JuliannasPizzaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AmarBhatia.JuliannasPizzaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		87C257051F28938900305014 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 465955C7HD;
+				INFOPLIST_FILE = JuliannasPizzaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AmarBhatia.JuliannasPizzaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		87C257071F28938900305014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 465955C7HD;
+				INFOPLIST_FILE = JuliannasPizzaAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AmarBhatia.JuliannasPizzaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JuliannasPizzaApp.app/JuliannasPizzaApp";
+			};
+			name = Debug;
+		};
+		87C257081F28938900305014 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 465955C7HD;
+				INFOPLIST_FILE = JuliannasPizzaAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AmarBhatia.JuliannasPizzaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JuliannasPizzaApp.app/JuliannasPizzaApp";
+			};
+			name = Release;
+		};
+		87C2570A1F28938900305014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 465955C7HD;
+				INFOPLIST_FILE = JuliannasPizzaAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AmarBhatia.JuliannasPizzaAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = JuliannasPizzaApp;
+			};
+			name = Debug;
+		};
+		87C2570B1F28938900305014 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 465955C7HD;
+				INFOPLIST_FILE = JuliannasPizzaAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AmarBhatia.JuliannasPizzaAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = JuliannasPizzaApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87C256D31F28938800305014 /* Build configuration list for PBXProject "JuliannasPizzaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87C257011F28938900305014 /* Debug */,
+				87C257021F28938900305014 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87C257031F28938900305014 /* Build configuration list for PBXNativeTarget "JuliannasPizzaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87C257041F28938900305014 /* Debug */,
+				87C257051F28938900305014 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		87C257061F28938900305014 /* Build configuration list for PBXNativeTarget "JuliannasPizzaAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87C257071F28938900305014 /* Debug */,
+				87C257081F28938900305014 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		87C257091F28938900305014 /* Build configuration list for PBXNativeTarget "JuliannasPizzaAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87C2570A1F28938900305014 /* Debug */,
+				87C2570B1F28938900305014 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		87C256E21F28938800305014 /* JuliannasPizzaApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				87C256E31F28938800305014 /* JuliannasPizzaApp.xcdatamodel */,
+			);
+			currentVersion = 87C256E31F28938800305014 /* JuliannasPizzaApp.xcdatamodel */;
+			path = JuliannasPizzaApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 87C256D01F28938800305014 /* Project object */;
+}
