@@ -7,14 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		381E9F932D3B8821BCD488BC /* Pods_JuliannasPizzaAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ACE19A4A9070A5D57B9F817 /* Pods_JuliannasPizzaAppTests.framework */; };
+		3FD8DB71AC2053C12F5C1D93 /* Pods_JuliannasPizzaApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35EB044ED3CF3CC88F796FBF /* Pods_JuliannasPizzaApp.framework */; };
+		855859D5699868CD1C3250F7 /* Pods_JuliannasPizzaAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3738DC0472E9C1E18C3BE3CB /* Pods_JuliannasPizzaAppUITests.framework */; };
+		872A3CC01F2ECF0E00EE8182 /* CustomerMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872A3CBF1F2ECF0E00EE8182 /* CustomerMenuTableViewController.swift */; };
+		872A3CC21F2EE12600EE8182 /* MealListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872A3CC11F2EE12600EE8182 /* MealListTableViewController.swift */; };
+		872A3CC41F2F7EEF00EE8182 /* MealDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872A3CC31F2F7EEF00EE8182 /* MealDetailsViewController.swift */; };
+		872A3CC61F2FEE4200EE8182 /* TrayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872A3CC51F2FEE4200EE8182 /* TrayViewController.swift */; };
+		872A3CC91F2FF9F800EE8182 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 872A3CC81F2FF9F800EE8182 /* MapKit.framework */; };
+		872A3CCB1F2FFEDD00EE8182 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872A3CCA1F2FFEDD00EE8182 /* PaymentViewController.swift */; };
+		872A3CCD1F3004D900EE8182 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872A3CCC1F3004D900EE8182 /* OrderViewController.swift */; };
+		872A3CD01F303B3600EE8182 /* FBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872A3CCF1F303B3600EE8182 /* FBManager.swift */; };
+		872A3CD21F303CE900EE8182 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872A3CD11F303CE900EE8182 /* LoginViewController.swift */; };
+		872A3CD41F304B3500EE8182 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872A3CD31F304B3500EE8182 /* User.swift */; };
+		873D1A4D1F2ECAE900E6F4FA /* RestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873D1A4C1F2ECAE900E6F4FA /* RestaurantViewController.swift */; };
+		875955171F30C2DB00D2374F /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875955161F30C2DB00D2374F /* APIManager.swift */; };
+		875955191F30C59700D2374F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875955181F30C59700D2374F /* Constants.swift */; };
 		87C256DC1F28938800305014 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C256DB1F28938800305014 /* AppDelegate.swift */; };
-		87C256DE1F28938800305014 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C256DD1F28938800305014 /* ViewController.swift */; };
 		87C256E11F28938800305014 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87C256DF1F28938800305014 /* Main.storyboard */; };
 		87C256E41F28938800305014 /* JuliannasPizzaApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 87C256E21F28938800305014 /* JuliannasPizzaApp.xcdatamodeld */; };
 		87C256E61F28938800305014 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87C256E51F28938800305014 /* Assets.xcassets */; };
 		87C256E91F28938800305014 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87C256E71F28938800305014 /* LaunchScreen.storyboard */; };
 		87C256F41F28938800305014 /* JuliannasPizzaAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C256F31F28938800305014 /* JuliannasPizzaAppTests.swift */; };
 		87C256FF1F28938800305014 /* JuliannasPizzaAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C256FE1F28938800305014 /* JuliannasPizzaAppUITests.swift */; };
+		87C2570F1F29150A00305014 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C2570E1F29150A00305014 /* SWRevealViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +51,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0ACE19A4A9070A5D57B9F817 /* Pods_JuliannasPizzaAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JuliannasPizzaAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		182D4E89968132982B1D5A30 /* Pods-JuliannasPizzaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JuliannasPizzaApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JuliannasPizzaApp/Pods-JuliannasPizzaApp.debug.xcconfig"; sourceTree = "<group>"; };
+		35EB044ED3CF3CC88F796FBF /* Pods_JuliannasPizzaApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JuliannasPizzaApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3738DC0472E9C1E18C3BE3CB /* Pods_JuliannasPizzaAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JuliannasPizzaAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		437909985DA85C35839B82B7 /* Pods-JuliannasPizzaAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JuliannasPizzaAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JuliannasPizzaAppUITests/Pods-JuliannasPizzaAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		65CC45B57E27A80A4DEDBFF9 /* Pods-JuliannasPizzaAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JuliannasPizzaAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JuliannasPizzaAppTests/Pods-JuliannasPizzaAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		872A3CBF1F2ECF0E00EE8182 /* CustomerMenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerMenuTableViewController.swift; sourceTree = "<group>"; };
+		872A3CC11F2EE12600EE8182 /* MealListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealListTableViewController.swift; sourceTree = "<group>"; };
+		872A3CC31F2F7EEF00EE8182 /* MealDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealDetailsViewController.swift; sourceTree = "<group>"; };
+		872A3CC51F2FEE4200EE8182 /* TrayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrayViewController.swift; sourceTree = "<group>"; };
+		872A3CC81F2FF9F800EE8182 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		872A3CCA1F2FFEDD00EE8182 /* PaymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		872A3CCC1F3004D900EE8182 /* OrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
+		872A3CCE1F3037F000EE8182 /* JuliannasPizzaApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JuliannasPizzaApp.entitlements; sourceTree = "<group>"; };
+		872A3CCF1F303B3600EE8182 /* FBManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBManager.swift; sourceTree = "<group>"; };
+		872A3CD11F303CE900EE8182 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		872A3CD31F304B3500EE8182 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		873D1A4C1F2ECAE900E6F4FA /* RestaurantViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantViewController.swift; sourceTree = "<group>"; };
+		875955161F30C2DB00D2374F /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		875955181F30C59700D2374F /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		87C256D81F28938800305014 /* JuliannasPizzaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JuliannasPizzaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87C256DB1F28938800305014 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		87C256DD1F28938800305014 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		87C256E01F28938800305014 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		87C256E31F28938800305014 /* JuliannasPizzaApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JuliannasPizzaApp.xcdatamodel; sourceTree = "<group>"; };
 		87C256E51F28938800305014 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +84,12 @@
 		87C256FA1F28938800305014 /* JuliannasPizzaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JuliannasPizzaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		87C256FE1F28938800305014 /* JuliannasPizzaAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuliannasPizzaAppUITests.swift; sourceTree = "<group>"; };
 		87C257001F28938800305014 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87C2570C1F29150900305014 /* JuliannasPizzaApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JuliannasPizzaApp-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		87C2570D1F29150A00305014 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = ../SWRevealViewController.h; sourceTree = "<group>"; };
+		87C2570E1F29150A00305014 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = ../SWRevealViewController.m; sourceTree = "<group>"; };
+		8AE950A7A0704191C3F5F042 /* Pods-JuliannasPizzaAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JuliannasPizzaAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JuliannasPizzaAppUITests/Pods-JuliannasPizzaAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8C2BF5B3B5D8156FF4E9F40B /* Pods-JuliannasPizzaAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JuliannasPizzaAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JuliannasPizzaAppTests/Pods-JuliannasPizzaAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		F949D29415C0AF26F1D2E5A3 /* Pods-JuliannasPizzaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JuliannasPizzaApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-JuliannasPizzaApp/Pods-JuliannasPizzaApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +97,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				872A3CC91F2FF9F800EE8182 /* MapKit.framework in Frameworks */,
+				3FD8DB71AC2053C12F5C1D93 /* Pods_JuliannasPizzaApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				381E9F932D3B8821BCD488BC /* Pods_JuliannasPizzaAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +114,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				855859D5699868CD1C3250F7 /* Pods_JuliannasPizzaAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		872A3CC71F2FF9F800EE8182 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				872A3CC81F2FF9F800EE8182 /* MapKit.framework */,
+				35EB044ED3CF3CC88F796FBF /* Pods_JuliannasPizzaApp.framework */,
+				0ACE19A4A9070A5D57B9F817 /* Pods_JuliannasPizzaAppTests.framework */,
+				3738DC0472E9C1E18C3BE3CB /* Pods_JuliannasPizzaAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		875955151F30C2B400D2374F /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				872A3CCF1F303B3600EE8182 /* FBManager.swift */,
+				875955161F30C2DB00D2374F /* APIManager.swift */,
+				875955181F30C59700D2374F /* Constants.swift */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
 		87C256CF1F28938800305014 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +149,8 @@
 				87C256F21F28938800305014 /* JuliannasPizzaAppTests */,
 				87C256FD1F28938800305014 /* JuliannasPizzaAppUITests */,
 				87C256D91F28938800305014 /* Products */,
+				872A3CC71F2FF9F800EE8182 /* Frameworks */,
+				9BC575BCF734A644B3081B4F /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +167,13 @@
 		87C256DA1F28938800305014 /* JuliannasPizzaApp */ = {
 			isa = PBXGroup;
 			children = (
-				87C256DB1F28938800305014 /* AppDelegate.swift */,
-				87C256DD1F28938800305014 /* ViewController.swift */,
-				87C256DF1F28938800305014 /* Main.storyboard */,
-				87C256E51F28938800305014 /* Assets.xcassets */,
-				87C256E71F28938800305014 /* LaunchScreen.storyboard */,
+				875955151F30C2B400D2374F /* Manager */,
+				87C257121F29152B00305014 /* Lib */,
+				87C257111F29152500305014 /* Model */,
+				87C257131F29153C00305014 /* Views */,
+				87C257141F29154100305014 /* Controllers */,
 				87C256EA1F28938800305014 /* Info.plist */,
-				87C256E21F28938800305014 /* JuliannasPizzaApp.xcdatamodeld */,
+				872A3CCE1F3037F000EE8182 /* JuliannasPizzaApp.entitlements */,
 			);
 			path = JuliannasPizzaApp;
 			sourceTree = "<group>";
@@ -128,6 +196,64 @@
 			path = JuliannasPizzaAppUITests;
 			sourceTree = "<group>";
 		};
+		87C257111F29152500305014 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				872A3CD31F304B3500EE8182 /* User.swift */,
+				87C256E21F28938800305014 /* JuliannasPizzaApp.xcdatamodeld */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		87C257121F29152B00305014 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				87C256DB1F28938800305014 /* AppDelegate.swift */,
+				87C2570C1F29150900305014 /* JuliannasPizzaApp-Bridging-Header.h */,
+				87C2570D1F29150A00305014 /* SWRevealViewController.h */,
+				87C2570E1F29150A00305014 /* SWRevealViewController.m */,
+				87C256E51F28938800305014 /* Assets.xcassets */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+		87C257131F29153C00305014 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				87C256DF1F28938800305014 /* Main.storyboard */,
+				87C256E71F28938800305014 /* LaunchScreen.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		87C257141F29154100305014 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				873D1A4C1F2ECAE900E6F4FA /* RestaurantViewController.swift */,
+				872A3CBF1F2ECF0E00EE8182 /* CustomerMenuTableViewController.swift */,
+				872A3CC11F2EE12600EE8182 /* MealListTableViewController.swift */,
+				872A3CC31F2F7EEF00EE8182 /* MealDetailsViewController.swift */,
+				872A3CC51F2FEE4200EE8182 /* TrayViewController.swift */,
+				872A3CCA1F2FFEDD00EE8182 /* PaymentViewController.swift */,
+				872A3CCC1F3004D900EE8182 /* OrderViewController.swift */,
+				872A3CD11F303CE900EE8182 /* LoginViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		9BC575BCF734A644B3081B4F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				182D4E89968132982B1D5A30 /* Pods-JuliannasPizzaApp.debug.xcconfig */,
+				F949D29415C0AF26F1D2E5A3 /* Pods-JuliannasPizzaApp.release.xcconfig */,
+				65CC45B57E27A80A4DEDBFF9 /* Pods-JuliannasPizzaAppTests.debug.xcconfig */,
+				8C2BF5B3B5D8156FF4E9F40B /* Pods-JuliannasPizzaAppTests.release.xcconfig */,
+				437909985DA85C35839B82B7 /* Pods-JuliannasPizzaAppUITests.debug.xcconfig */,
+				8AE950A7A0704191C3F5F042 /* Pods-JuliannasPizzaAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +261,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 87C257031F28938900305014 /* Build configuration list for PBXNativeTarget "JuliannasPizzaApp" */;
 			buildPhases = (
+				B227B4744F2ACB47874EDA95 /* [CP] Check Pods Manifest.lock */,
 				87C256D41F28938800305014 /* Sources */,
 				87C256D51F28938800305014 /* Frameworks */,
 				87C256D61F28938800305014 /* Resources */,
+				6C91B1A2F562091E535B3F44 /* [CP] Embed Pods Frameworks */,
+				7B1DD3BB6ACB2776E1DD997A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +281,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 87C257061F28938900305014 /* Build configuration list for PBXNativeTarget "JuliannasPizzaAppTests" */;
 			buildPhases = (
+				8D8F73BC4F83A748DC88B096 /* [CP] Check Pods Manifest.lock */,
 				87C256EB1F28938800305014 /* Sources */,
 				87C256EC1F28938800305014 /* Frameworks */,
 				87C256ED1F28938800305014 /* Resources */,
+				F079A0269AC49C541AEA2168 /* [CP] Embed Pods Frameworks */,
+				6B78B45C6F30D2144305A4D6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +302,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 87C257091F28938900305014 /* Build configuration list for PBXNativeTarget "JuliannasPizzaAppUITests" */;
 			buildPhases = (
+				F3ECB969753CDF98D3FEE5BA /* [CP] Check Pods Manifest.lock */,
 				87C256F61F28938800305014 /* Sources */,
 				87C256F71F28938800305014 /* Frameworks */,
 				87C256F81F28938800305014 /* Resources */,
+				4C9346F06AA42A6ADFC883CC /* [CP] Embed Pods Frameworks */,
+				6FE27D7C72478298C291E63E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -197,7 +332,13 @@
 					87C256D71F28938800305014 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 465955C7HD;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					87C256EE1F28938800305014 = {
 						CreatedOnToolsVersion = 8.3.2;
@@ -260,14 +401,164 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4C9346F06AA42A6ADFC883CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JuliannasPizzaAppUITests/Pods-JuliannasPizzaAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B78B45C6F30D2144305A4D6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JuliannasPizzaAppTests/Pods-JuliannasPizzaAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C91B1A2F562091E535B3F44 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JuliannasPizzaApp/Pods-JuliannasPizzaApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FE27D7C72478298C291E63E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JuliannasPizzaAppUITests/Pods-JuliannasPizzaAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B1DD3BB6ACB2776E1DD997A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JuliannasPizzaApp/Pods-JuliannasPizzaApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D8F73BC4F83A748DC88B096 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B227B4744F2ACB47874EDA95 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F079A0269AC49C541AEA2168 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JuliannasPizzaAppTests/Pods-JuliannasPizzaAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3ECB969753CDF98D3FEE5BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		87C256D41F28938800305014 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87C256DE1F28938800305014 /* ViewController.swift in Sources */,
+				872A3CC01F2ECF0E00EE8182 /* CustomerMenuTableViewController.swift in Sources */,
+				872A3CD01F303B3600EE8182 /* FBManager.swift in Sources */,
+				873D1A4D1F2ECAE900E6F4FA /* RestaurantViewController.swift in Sources */,
 				87C256E41F28938800305014 /* JuliannasPizzaApp.xcdatamodeld in Sources */,
 				87C256DC1F28938800305014 /* AppDelegate.swift in Sources */,
+				875955191F30C59700D2374F /* Constants.swift in Sources */,
+				872A3CD41F304B3500EE8182 /* User.swift in Sources */,
+				875955171F30C2DB00D2374F /* APIManager.swift in Sources */,
+				872A3CC61F2FEE4200EE8182 /* TrayViewController.swift in Sources */,
+				872A3CC21F2EE12600EE8182 /* MealListTableViewController.swift in Sources */,
+				872A3CCB1F2FFEDD00EE8182 /* PaymentViewController.swift in Sources */,
+				872A3CC41F2F7EEF00EE8182 /* MealDetailsViewController.swift in Sources */,
+				872A3CCD1F3004D900EE8182 /* OrderViewController.swift in Sources */,
+				872A3CD21F303CE900EE8182 /* LoginViewController.swift in Sources */,
+				87C2570F1F29150A00305014 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,32 +708,42 @@
 		};
 		87C257041F28938900305014 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 182D4E89968132982B1D5A30 /* Pods-JuliannasPizzaApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = JuliannasPizzaApp/JuliannasPizzaApp.entitlements;
 				DEVELOPMENT_TEAM = 465955C7HD;
 				INFOPLIST_FILE = JuliannasPizzaApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AmarBhatia.JuliannasPizzaApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JuliannasPizzaApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		87C257051F28938900305014 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F949D29415C0AF26F1D2E5A3 /* Pods-JuliannasPizzaApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = JuliannasPizzaApp/JuliannasPizzaApp.entitlements;
 				DEVELOPMENT_TEAM = 465955C7HD;
 				INFOPLIST_FILE = JuliannasPizzaApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AmarBhatia.JuliannasPizzaApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JuliannasPizzaApp-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		87C257071F28938900305014 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65CC45B57E27A80A4DEDBFF9 /* Pods-JuliannasPizzaAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -458,6 +759,7 @@
 		};
 		87C257081F28938900305014 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C2BF5B3B5D8156FF4E9F40B /* Pods-JuliannasPizzaAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -473,6 +775,7 @@
 		};
 		87C2570A1F28938900305014 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 437909985DA85C35839B82B7 /* Pods-JuliannasPizzaAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 465955C7HD;
@@ -487,6 +790,7 @@
 		};
 		87C2570B1F28938900305014 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AE950A7A0704191C3F5F042 /* Pods-JuliannasPizzaAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 465955C7HD;
@@ -518,6 +822,7 @@
 				87C257051F28938900305014 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		87C257061F28938900305014 /* Build configuration list for PBXNativeTarget "JuliannasPizzaAppTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +831,7 @@
 				87C257081F28938900305014 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		87C257091F28938900305014 /* Build configuration list for PBXNativeTarget "JuliannasPizzaAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +840,7 @@
 				87C2570B1F28938900305014 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
