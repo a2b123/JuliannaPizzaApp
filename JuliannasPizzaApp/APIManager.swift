@@ -44,6 +44,8 @@ class APIManager {
                 self.refreshToken = jsonData["refresh_token"].string!
                 self.expired = Date().addingTimeInterval(TimeInterval(jsonData["expires_in"].int!))
                 
+                print(jsonData)
+                
                 completionHandler(nil)
                 break
                 
@@ -75,6 +77,21 @@ class APIManager {
                 completionHandler(error as NSError)
                 break
             }
+        }
+    }
+    
+    // API to refresh the token when it's expired
+    
+    func refreshTokenIfNeeded(completionHandler: @escaping () -> Void) {
+        let path = "api/social/refresh-token/"
+        let url = baseURL?.appendingPathComponent(path)
+        let param: [String: Any] = [
+            "access_token": self.accessToken,
+            "refresh_token": self.refreshToken
+            
+        ]
+        
+        if (Date() > self.expired) {
         }
     }
 

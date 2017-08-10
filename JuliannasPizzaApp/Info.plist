@@ -7,19 +7,19 @@
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>
 	</dict>
-	<key>CFBundleURLTypes</key>
-	<array>
-		<dict>
-			<key>CFBundleURLSchemes</key>
-			<array>
-				<string>fb165453760661110</string>
-			</array>
-		</dict>
-	</array>
-	<key>FacebookAppID</key>
-	<string>165453760661110</string>
-	<key>FacebookDisplayName</key>
-	<string>JuliannasPizza</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>fb1900615983594230</string>
+            </array>
+        </dict>
+    </array>
+    <key>FacebookAppID</key>
+    <string>1900615983594230</string>
+    <key>FacebookDisplayName</key>
+    <string>Julianna'sPizza</string>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
 		<string>fbapi</string>
